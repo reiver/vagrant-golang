@@ -8,6 +8,10 @@ To use this do something like the following:
 ```
 git clone https://github.com/reiver/vagrant-golang
 
+# You're probably goin to want to create your
+# own git repository. So delete the one that
+# came with this.
+
 rm -fR .git
 
 cd vagrant
