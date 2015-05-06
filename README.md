@@ -56,3 +56,23 @@ your office, etc) it is possible they are using it for something. If you
 have a conflict, simply change that IP address in `vagrant/Vagrantfile`
 to something else, and restart vagrant.)
 
+
+## Headless
+
+If you are wondering, *why is the VirtualBox window coming up when I run "vagrant up"?*
+then read this section.
+
+My personal preference is that the VirtualBox window comes up. I don't like
+(what is called) "headless" mode. With the VirtualBox window being shown,
+it there is an error, I can often see it.
+
+However, not everyone likes this. So, if you want to swtich to **headless** mode, then
+find the line in `vagrant/Vagrantfile` that says:
+```
+vb.gui = true
+```
+
+And change that to:
+```
+vb.gui = false
+```
