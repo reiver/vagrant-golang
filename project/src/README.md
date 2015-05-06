@@ -6,6 +6,8 @@ Note that, 3rd party Go code will go in the `vendor` directory, not here.
 
 ## Building
 
+After you have done a `vagrant ssh` (to get inside the vagrant-based development environment)....
+
 To build your Go project, run the following `gb` command:
 ```
 gb build
