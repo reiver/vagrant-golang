@@ -59,7 +59,7 @@ to something else, and restart vagrant.)
 
 ## Headless
 
-If you are wondering, *why is the VirtualBox window coming up when I run "vagrant up"?*
+If you are wondering, *why is the VirtualBox window coming up when I run "vagrant up"?*,
 then read this section.
 
 My personal preference is that the VirtualBox window comes up. I don't like
@@ -76,3 +76,5 @@ And change that to:
 ```
 vb.gui = false
 ```
+
+And then restart vagrant.
