@@ -8,7 +8,7 @@ To use this do something like the following:
 ```
 git clone https://github.com/reiver/vagrant-golang
 
-# You're probably goin to want to create your
+# You're probably going to want to create your
 # own git repository. So delete the one that
 # came with this.
 
@@ -48,7 +48,7 @@ TL;DR: **10.10.10.10**
 Unless you change it, the `vagrant/Vagrantfile` file is configured to use the IP address
 `10.10.10.10`
 
-This is part of (what is called the) "reserved private address space" for IPv4.
+This is part of (what is called) the "reserved private address space" for IPv4.
 No public computer on the Internet will use this IP address.
 
 (However, if you are on a private network (which could include your ISP,
@@ -64,7 +64,7 @@ then read this section.
 
 My personal preference is that the VirtualBox window comes up. I don't like
 (what is called) "headless" mode. With the VirtualBox window being shown,
-it there is an error, I can often see it.
+if there is an error, I can often see it.
 
 However, not everyone likes this. So, if you want to swtich to **headless** mode, then
 find the line in `vagrant/Vagrantfile` that says:
