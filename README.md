@@ -24,7 +24,15 @@ vagrant ssh
 
 cd /vagrant_project
 
-nano src/main.go
+# Now you need to decided what your project will be called.
+#
+# For the sake of example, I will call it "PROGRAM_NAME_GOES_HERE".
+#
+# You should pick something else.
+
+mkdir src/PROGRAM_NAME_GOES_HERE
+
+nano src/PROGRAM_NAME_GOES_HERE/main.go
 
 # Put something like the following in main.go
 #
@@ -38,8 +46,11 @@ nano src/main.go
 
 gb build
 
-./bin/main
+./bin/PROGRAM_NAME_GOES_HERE
 ```
+
+(Of course, replace "PROGRAM_NAME_GOES_HERE" with whatever you want to call your program.)
+
 
 ## IP Address
 
