@@ -87,8 +87,8 @@ echo "#                                                          #"
 echo "############################################################"
 echo
 echo
-#GOLANG_TARBALL='go1.4.2.linux-amd64.tar.gz'
-GOLANG_TARBALL='go1.4rc2.linux-386.tar.gz'
+#GOLANG_TARBALL='go1.6.linux-amd64.tar.gz'
+GOLANG_TARBALL='go1.6.linux-386.tar.gz'
 pushd /usr/local/
 wget "https://storage.googleapis.com/golang/${GOLANG_TARBALL}"
 tar -zxvf "${GOLANG_TARBALL}"
